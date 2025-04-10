@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dea0073926b9f4886220ddfee6531c, type: 3}
+  m_Name: PedestrianPool
+  m_EditorClassIdentifier: 
+  _pedestrians:
+  - _pedestrianPrefab: {fileID: 1909001698619046016, guid: cb52bf5a37eb17f4999b470407d2e567, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 7973452970136405340, guid: f431d38aa4b72424eb24907f6f840eef, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 4891289717163707630, guid: c0a1eb58972a4364dab6d4a55e91229e, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 899516060398700569, guid: f20aa4403457f634081cbfd41db0e42a, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 8707112963586288525, guid: 3c315459ce27ff24b8a38e5d5983e0b4, type: 3}
+    _percent: 2
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 7783353762175352813, guid: 72b8b52755c288c4aa1cec6031d99c19, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 158599742808964389, guid: 64a50918d231f844b9d23545c1069b0f, type: 3}
+    _percent: 1
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 3159890897646442167, guid: 4368394e42a8e8745bd665efa4c8c469, type: 3}
+    _percent: 2
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 384185608397882453, guid: 637dd176fa9b5154b8bf47ee0d156a3b, type: 3}
+    _percent: 2
+    _dontInstantiate: 0
+  - _pedestrianPrefab: {fileID: 4199157125331276064, guid: 6439ece7e5e6a124cb40255a4031c2b7, type: 3}
+    _percent: 2
+    _dontInstantiate: 0

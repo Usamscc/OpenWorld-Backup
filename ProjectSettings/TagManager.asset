@@ -31,6 +31,8 @@ TagManager:
   - Interactable
   - AIAction
   - TrafficLight
+  - Ladder
+  - LadderLandingPad
   layers:
   - Default
   - TransparentFX
@@ -45,16 +47,16 @@ TagManager:
   - CompanionAI
   - Triggers
   - StopMove
-  - 
+  - RCC
   - HeadTrack
   - BodyPart
   - BlockAIRayCast
   - Pushable
   - CoverPoint
-  - 
-  - 
-  - 
-  - 
+  - RCC_WheelCollider
+  - RCC_DetachablePart
+  - RCC_Trailer
+  - RCC_Crasher
   - 
   - 
   - 

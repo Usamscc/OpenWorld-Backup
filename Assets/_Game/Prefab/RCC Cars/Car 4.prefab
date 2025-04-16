@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 1445668859183746335}
   - component: {fileID: 5787225132030459447}
   - component: {fileID: 7027407611670786535}
+  - component: {fileID: 6463839744693823660}
   m_Layer: 13
   m_Name: Car 4
   m_TagString: Untagged
@@ -720,6 +721,20 @@ MonoBehaviour:
   useNOS: 0
   useTurbo: 0
   attachedTrailer: {fileID: 0}
+--- !u!114 &6463839744693823660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4800155244498665613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 203c864861993d240a15c7c08ec7f190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerType: 2
+  carType: 2
 --- !u!1 &6017392856728665643
 GameObject:
   m_ObjectHideFlags: 0

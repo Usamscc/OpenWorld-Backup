@@ -8,8 +8,14 @@ public class ControllersManager : MonoBehaviour
     public static ControllersManager Instance;
     
     [field: SerializeField] public ControllerBase ActiveController { get; private set; }
+    
+    [Space]
+    [Header("Controllers")]
     public ControllerBase[] controllers;
 
+    public Camera playerInvectorCamera;
+    
+    [HideInInspector] public Vector2 updatePlayerPosition;
     private void Awake()
     {
         if (Instance == null)
